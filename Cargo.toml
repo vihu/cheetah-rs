@@ -1,0 +1,10 @@
+[profile.release]
+debug = true
+
+[workspace]
+members = [
+    "filedemo",
+    "micdemo",
+]
+package = { edition = "2021" }
+resolver = "2"
